@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="../Dentistry.Desktop/Dentistry.Desktop.csproj" />
+    <Project Path="Dentistry.Core/Dentistry.Core.csproj" />
+    <Project Path="Dentistry.Data/Dentistry.Data.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="Dentistry.UnitTests/Dentistry.UnitTests.csproj" />
+  </Folder>
+</Solution>

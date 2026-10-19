@@ -1,0 +1,39 @@
+## ============================================================================
+## 1. ARCHIVOS TEMPORALES DE VISUAL STUDIO Y COMPILACIÓN (.NET 10)
+## ============================================================================
+.vs/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+TestResults/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## ============================================================================
+## 2. SECRETOS, CONFIGURACIÓN LOCAL Y CACHÉ DE ANTIGRAVITY==
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Production.json
+.env
+.antigravity/cache/
+
+## ============================================================================
+## 3. BASE DE DATOS Y DOCUMENTOS CLÍNICOS GENERADOS (PRIVACIDAD MÉDICA)
+## ============================================================================
+*.db
+*.db-shm
+*.db-wal
+*.sql
+*.backup
+*.bak
+Backups/
+ExportedPdfs/
